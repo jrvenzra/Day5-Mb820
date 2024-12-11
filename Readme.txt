@@ -9,6 +9,11 @@ git config --global user.email "email@youremail.com"
 Verify that Git is Linked to your Github
 $ git config --global --list
 
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <Remote>
+git push -u origin main
 
 Delete the remote branch (usually <remote> is origin):
 git push <remote> --delete <branch>
