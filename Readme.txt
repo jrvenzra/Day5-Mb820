@@ -91,3 +91,9 @@ remote: Resolving deltas: 100% (1/1), done.
 To https://github.com/jrvenzra/Day5-Mb820.git
  * [new branch]      master -> master
 PS C:\Users\Admin\Documents\AL\ALJRV_GIT_LAB> 
+
+
+Delete the remote branch (usually <remote> is origin):
+git push <remote> --delete <branch>
+Delete the local branch:
+git branch --delete <branch>
